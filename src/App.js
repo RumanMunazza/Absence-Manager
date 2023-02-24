@@ -69,11 +69,8 @@ export default function DynamicTable() {
     <center>
      <br/>
      <div style={{  align: 'center', height: 650, width: '95%'}}>
-       <h3>
-        Absence Manager 
-        Total No.of Absences {totalAbsentes}
-        <hr width="100%" color="black" />
-       </h3>
+       <h1 style={{color:"darkblue",backgroundColor:"ButtonShadow"}}>ABSENCE MANAGER </h1> 
+       <h2 style={{textAlign:"end",fontSize:"20px"}}>Total Absences : {totalAbsentes}</h2>
        <DataGrid rows={data}
                  loading={loading}
                  columns={columns}
